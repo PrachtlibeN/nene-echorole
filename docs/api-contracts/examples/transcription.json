@@ -1,0 +1,16 @@
+{
+  "text": "In my last role I led a migration of our payments service.",
+  "language": "en",
+  "duration_ms": 8420,
+  "avg_confidence": 0.91,
+  "word_count": 11,
+  "processing_ms": 2310,
+  "segments": [
+    {
+      "start_ms": 0,
+      "end_ms": 4100,
+      "text": "In my last role I led a migration",
+      "confidence": 0.93
+    }
+  ]
+}

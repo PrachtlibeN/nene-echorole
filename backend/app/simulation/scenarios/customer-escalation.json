@@ -1,0 +1,44 @@
+{
+  "slug": "customer-escalation",
+  "title": "Customer Escalation",
+  "description": "Resolve a tense customer complaint while balancing urgency and realistic commitments.",
+  "language": "en",
+  "difficulty": 3,
+  "max_turns": 8,
+  "estimated_minutes": 12,
+  "definition": {
+    "persona": {
+      "name": "Morgan Lee",
+      "role": "Operations Director at a key customer",
+      "style": "Frustrated and exacting; challenges vague timelines and repeated assurances.",
+      "pressure_level": 3
+    },
+    "personas": [
+      {
+        "id": "morgan",
+        "name": "Morgan",
+        "role_title": "Customer Operations Director",
+        "focus_area": "Impact and credible commitments",
+        "voice_gender": "male",
+        "persona_prompt": "Represent a frustrated customer operations leader. Focus on business impact, incident scope, ownership, timelines, and verifiable commitments."
+      },
+      {
+        "id": "priya",
+        "name": "Priya",
+        "role_title": "Customer Success Partner",
+        "focus_area": "Empathy and recovery",
+        "voice_gender": "female",
+        "persona_prompt": "Represent a supportive but candid customer success partner. Focus on empathy, listening, stakeholder communication, and practical recovery steps."
+      }
+    ],
+    "task": {
+      "goal": "Restore confidence by responding to a service issue with empathy and a credible action plan.",
+      "success_criteria": [
+        "Acknowledge the customer's impact without becoming defensive.",
+        "Ask focused questions to clarify urgency and scope.",
+        "Offer specific next steps without promising unverified outcomes."
+      ]
+    },
+    "evaluation_focus": ["composure", "clarity", "relevance"]
+  }
+}

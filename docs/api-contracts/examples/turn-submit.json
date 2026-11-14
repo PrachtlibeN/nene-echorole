@@ -1,0 +1,64 @@
+{
+  "candidate_turn": {
+    "id": "trn_77e0c3",
+    "session_id": "ses_9c1f40",
+    "idx": 2,
+    "speaker": "candidate",
+    "text": "In my last role I led a migration.",
+    "source": "typed",
+    "speech_meta": null,
+    "speaker_id": null,
+    "speaker_name": null,
+    "created_at": "2026-11-13T10:15:40Z"
+  },
+  "interviewer_turn": {
+    "id": "trn_8a02d5",
+    "session_id": "ses_9c1f40",
+    "idx": 4,
+    "speaker": "interviewer",
+    "text": "What was the measurable outcome?",
+    "source": "generated",
+    "speech_meta": null,
+    "speaker_id": "people-partner",
+    "speaker_name": "Sarah",
+    "created_at": "2026-11-13T10:15:44Z"
+  },
+  "interviewer_turns": [
+    {
+      "id": "trn_8a02d4",
+      "session_id": "ses_9c1f40",
+      "idx": 3,
+      "speaker": "interviewer",
+      "text": "How did you decide what to prioritize?",
+      "source": "generated",
+      "speech_meta": null,
+      "speaker_id": "engineering-manager",
+      "speaker_name": "Alex",
+      "created_at": "2026-11-13T10:15:43Z"
+    },
+    {
+      "id": "trn_8a02d5",
+      "session_id": "ses_9c1f40",
+      "idx": 4,
+      "speaker": "interviewer",
+      "text": "What was the measurable outcome?",
+      "source": "generated",
+      "speech_meta": null,
+      "speaker_id": "people-partner",
+      "speaker_name": "Sarah",
+      "created_at": "2026-11-13T10:15:44Z"
+    }
+  ],
+  "session": {
+    "id": "ses_9c1f40",
+    "scenario_id": "scn_a1b2c3",
+    "status": "active",
+    "end_reason": null,
+    "turn_count": 1,
+    "max_turns": 8,
+    "roleplay_conversation_id": "cnv_rp_51ab90",
+    "created_at": "2026-11-13T10:15:00Z",
+    "started_at": "2026-11-13T10:15:04Z",
+    "ended_at": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ses_9c1f40",
+  "scenario_id": "scn_a1b2c3",
+  "status": "created",
+  "end_reason": null,
+  "turn_count": 0,
+  "max_turns": 8,
+  "roleplay_conversation_id": "cnv_rp_51ab90",
+  "created_at": "2026-11-13T10:15:00Z",
+  "started_at": null,
+  "ended_at": null
+}

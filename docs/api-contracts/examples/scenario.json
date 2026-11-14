@@ -1,0 +1,63 @@
+{
+  "id": "scn_a1b2c3",
+  "slug": "job-interview-behavioral",
+  "title": "Behavioral Job Interview",
+  "description": "Answer tough behavioral questions from a skeptical hiring manager.",
+  "language": "en",
+  "difficulty": 2,
+  "max_turns": 8,
+  "estimated_minutes": 10,
+  "personas": [
+    {
+      "id": "engineering-manager",
+      "name": "Alex",
+      "role_title": "Engineering Manager",
+      "focus_area": "Technical & Execution",
+      "voice_gender": "male",
+      "persona_prompt": "Probe technical decisions, ownership, and measurable execution."
+    },
+    {
+      "id": "people-partner",
+      "name": "Sarah",
+      "role_title": "People Partner",
+      "focus_area": "Leadership & Conflict",
+      "voice_gender": "female",
+      "persona_prompt": "Explore collaboration, leadership, and conflict resolution."
+    }
+  ],
+  "definition": {
+    "persona": {
+      "name": "Dana Whitfield",
+      "role": "Senior Engineering Manager",
+      "style": "Direct, time-pressed, probes vague answers",
+      "pressure_level": 3
+    },
+    "personas": [
+      {
+        "id": "engineering-manager",
+        "name": "Alex",
+        "role_title": "Engineering Manager",
+        "focus_area": "Technical & Execution",
+        "voice_gender": "male",
+        "persona_prompt": "Probe technical decisions, ownership, and measurable execution."
+      },
+      {
+        "id": "people-partner",
+        "name": "Sarah",
+        "role_title": "People Partner",
+        "focus_area": "Leadership & Conflict",
+        "voice_gender": "female",
+        "persona_prompt": "Explore collaboration, leadership, and conflict resolution."
+      }
+    ],
+    "task": {
+      "goal": "Convince the interviewer you can lead a project under tight deadlines.",
+      "success_criteria": [
+        "Gives a concrete example using STAR structure",
+        "Quantifies the result",
+        "Stays composed when challenged"
+      ]
+    },
+    "evaluation_focus": ["structure", "relevance", "composure"]
+  }
+}

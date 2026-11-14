@@ -1,0 +1,100 @@
+{
+  "id": "evl_c40e19",
+  "session_id": "ses_9c1f40",
+  "attempt": 1,
+  "status": "completed",
+  "rubric_version": "1.0",
+  "coach_conversation_id": "cnv_ev_20ff3a",
+  "model": "configured",
+  "metrics": {
+    "candidate_turns": 6,
+    "total_words": 412,
+    "avg_words_per_turn": 68.7,
+    "speaking_time_ms": 192000,
+    "words_per_minute": 128.7,
+    "filler_words": {
+      "total": 14,
+      "per_100_words": 3.4,
+      "breakdown": { "um": 6, "uh": 3, "like": 4, "you know": 1 }
+    },
+    "avg_stt_confidence": 0.9
+  },
+  "result": {
+    "overall_score": 66,
+    "summary": "Solid content, but answers lacked measurable outcomes.",
+    "task_outcome": {
+      "achieved": "partially",
+      "explanation": "You gave one concrete example but never quantified the result."
+    },
+    "criteria": [
+      {
+        "criterion": "relevance",
+        "score": 7,
+        "weight_percent": 25,
+        "weighted_points": 17.5,
+        "rationale": "Relevant examples addressed the prompt.",
+        "evidence_turn_ids": ["trn_77e0c1"]
+      },
+      {
+        "criterion": "structure",
+        "score": 6,
+        "weight_percent": 20,
+        "weighted_points": 12.0,
+        "rationale": "The answer had a clear action but no result.",
+        "evidence_turn_ids": ["trn_8a02d4"]
+      },
+      {
+        "criterion": "clarity",
+        "score": 7,
+        "weight_percent": 20,
+        "weighted_points": 14.0,
+        "rationale": "The main points were easy to follow.",
+        "evidence_turn_ids": ["trn_77e0c1"]
+      },
+      {
+        "criterion": "composure",
+        "score": 6,
+        "weight_percent": 15,
+        "weighted_points": 9.0,
+        "rationale": "The candidate answered follow-up questions calmly.",
+        "evidence_turn_ids": ["trn_8a02d4"]
+      },
+      {
+        "criterion": "conciseness",
+        "score": 5,
+        "weight_percent": 10,
+        "weighted_points": 5.0,
+        "rationale": "Some details were repeated.",
+        "evidence_turn_ids": ["trn_77e0c1"]
+      },
+      {
+        "criterion": "language_accuracy",
+        "score": 8,
+        "weight_percent": 10,
+        "weighted_points": 8.0,
+        "rationale": "Word choice was accurate and professional.",
+        "evidence_turn_ids": ["trn_77e0c1"]
+      }
+    ],
+    "strengths": [
+      {
+        "text": "Opened with a clear, relevant example.",
+        "evidence_turn_ids": ["trn_77e0c1"]
+      }
+    ],
+    "improvements": [
+      {
+        "text": "Quantify outcomes.",
+        "evidence_turn_ids": ["trn_8a02d4"],
+        "example_rewrite": "Say how much the result improved."
+      }
+    ],
+    "next_task": {
+      "title": "Quantify your impact",
+      "instructions": "Re-answer the question with two measurable outcomes."
+    }
+  },
+  "error": null,
+  "created_at": "2026-11-13T10:30:00Z",
+  "completed_at": "2026-11-13T10:30:41Z"
+}

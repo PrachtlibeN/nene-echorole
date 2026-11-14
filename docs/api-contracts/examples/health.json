@@ -1,0 +1,14 @@
+{
+  "status": "degraded",
+  "version": "0.1.0",
+  "contract_version": "0.4.0",
+  "components": {
+    "database": { "status": "ok", "detail": null },
+    "llm": {
+      "status": "loading",
+      "models": { "roleplay": "configured", "evaluation": "configured" },
+      "detail": null
+    },
+    "stt": { "status": "loading", "model": "configured", "detail": null }
+  }
+}

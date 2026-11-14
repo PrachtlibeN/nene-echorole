@@ -1,0 +1,15 @@
+{
+  "stt": {
+    "status": "loading",
+    "engine": "faster-whisper",
+    "model": "configured",
+    "device": "cpu",
+    "language": "en"
+  },
+  "tts": { "mode": "browser", "server_side": false },
+  "limits": {
+    "max_audio_seconds": 120,
+    "max_audio_mb": 10,
+    "accepted_types": ["audio/webm", "audio/ogg", "audio/wav", "audio/mp4", "audio/mpeg"]
+  }
+}
